@@ -86,8 +86,8 @@ class LevelOne(tk.Frame):
         row_sayi=1
         for eng, tur in soz.items():
 
-            tk.Label(self, text=eng, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=0, pady=5,padx=5)
-            tk.Label(self, text=tur, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=1, pady=5,padx=5)
+            tk.Label(self, text=tur, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=0, pady=5,padx=5)
+            tk.Label(self, text=eng, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=1, pady=5,padx=5)
             row_sayi=row_sayi+1
 
         tk.Button(self, text="Next",
@@ -109,8 +109,8 @@ class LevelTwo(tk.Frame):
         tk.Label(self, text="English", font=('arial', 16, "bold"),bg='pink').grid(row=0, column=1, pady=5, padx=5)
         row_sayi=1
         for eng, tur in soz.items():
-            tk.Label(self, text=eng, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=0, pady=5,padx=5)
-            tk.Label(self, text=tur, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=1, pady=5,padx=5)
+            tk.Label(self, text=tur, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=0, pady=5,padx=5)
+            tk.Label(self, text=eng, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=1, pady=5,padx=5)
             row_sayi=row_sayi+1
         tk.Button(self, text="Next",
                   command=lambda: master.switch_frame(Alistirma)).grid(row=row_sayi, column=1, pady=row_sayi, padx=5)
@@ -130,8 +130,8 @@ class LevelThree(tk.Frame):
         tk.Label(self, text="English", font=('arial', 16, "bold"),bg='pink').grid(row=0, column=1, pady=5, padx=5)
         row_sayi=1
         for eng, tur in soz.items():
-            tk.Label(self, text=eng, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=0, pady=5,padx=5)
-            tk.Label(self, text=tur, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=1, pady=5,padx=5)
+            tk.Label(self, text=tur, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=0, pady=5,padx=5)
+            tk.Label(self, text=eng, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=1, pady=5,padx=5)
             row_sayi=row_sayi+1
         tk.Button(self, text="Next",
                   command=lambda: master.switch_frame(Alistirma)).grid(row=row_sayi, column=1, pady=row_sayi, padx=5)
@@ -151,8 +151,8 @@ class LevelFour(tk.Frame):
         tk.Label(self, text="English", font=('arial', 16, "bold"),bg='pink').grid(row=0, column=1, pady=5, padx=5)
         row_sayi=1
         for eng, tur in soz.items():
-            tk.Label(self, text=eng, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=0, pady=5,padx=5)
-            tk.Label(self, text=tur, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=1, pady=5,padx=5)
+            tk.Label(self, text=tur, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=0, pady=5,padx=5)
+            tk.Label(self, text=eng, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=1, pady=5,padx=5)
             row_sayi=row_sayi+1
         tk.Button(self, text="Next",
                   command=lambda: master.switch_frame(Alistirma)).grid(row=row_sayi, column=1, pady=row_sayi, padx=5)
@@ -172,8 +172,8 @@ class LevelFive(tk.Frame):
         tk.Label(self, text="English", font=('arial', 16, "bold"),bg='pink').grid(row=0, column=1, pady=5, padx=5)
         row_sayi=1
         for eng, tur in soz.items():
-            tk.Label(self, text=eng, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=0, pady=5,padx=5)
-            tk.Label(self, text=tur, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=1, pady=5,padx=5)
+            tk.Label(self, text=tur, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=0, pady=5,padx=5)
+            tk.Label(self, text=eng, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=1, pady=5,padx=5)
             row_sayi=row_sayi+1
         tk.Button(self, text="Next",
                   command=lambda: master.switch_frame(Alistirma)).grid(row=row_sayi, column=1, pady=row_sayi, padx=5)
@@ -193,8 +193,8 @@ class LevelSix(tk.Frame):
         tk.Label(self, text="English", font=('arial', 16, "bold"),bg='pink').grid(row=0, column=1, pady=5, padx=5)
         row_sayi=1
         for eng, tur in soz.items():
-            tk.Label(self, text=eng, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=0, pady=5,padx=5)
-            tk.Label(self, text=tur, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=1, pady=5,padx=5)
+            tk.Label(self, text=tur, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=0, pady=5,padx=5)
+            tk.Label(self, text=eng, font=('Pursia', 14, "bold")).grid(row=row_sayi, column=1, pady=5,padx=5)
             row_sayi=row_sayi+1
         tk.Button(self, text="Next",
                   command=lambda: master.switch_frame(Alistirma)).grid(row=row_sayi, column=1, pady=row_sayi, padx=5)
