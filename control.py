@@ -270,7 +270,7 @@ class Alistirma(tk.Frame):
         if len(a) == 2:
             b[0]["bg"] = "magenta"
             b[1]["bg"] = "magenta"
-            if a[0] == yeni.keys():
+            if a[0] in yeni.keys():
                 if  a[1] == yeni[a[0]]:
                     b[0].config(state="disable")
                     b[1].config(state="disable")
